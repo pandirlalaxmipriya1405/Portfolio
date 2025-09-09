@@ -1,0 +1,59 @@
+body{
+    background-color: #e7fafc;padding: 20px;
+}
+h1{text-align: center; font-size: 40px;}
+h1 :hover{ text-decoration: underline;}
+p{
+    text-align: center;font-size: 30px;
+}
+nav{
+    text-align:center;
+}
+nav a{
+    border: 2px solid white;padding: 5px;font-weight: bold;
+    border-radius: 5px;text-decoration: none; margin-left: 20px;
+}
+nav a:hover{
+background-color:rgb(116, 110, 175);color:white
+}
+section{ background-color: white; width: 800px;text-align: center;
+margin:auto;border-radius: 10px; padding:10px auto;box-shadow: 0 5px 13px rgb(231, 59, 59);}
+hr{margin: 30px auto;width:800px; border: 2px solid maroon}
+figure{
+    text-align: center;
+}
+figure img{
+    border-radius: 50%; border:3px solid black;box-shadow:black
+}
+figure img:hover{
+    box-shadow: 0 5 14px  rgb(29, 2, 2);
+}
+figcaption{
+    font-size: 30px;
+}
+section h2{
+    border: 2px solid rgb(195, 195, 212); padding-bottom: 20px ;padding-top: 20px;border-bottom: 50%px;
+}
+article{
+    background-color: #e7fafc;padding:30px;margin:30px;border-left:4px rgb(168, 168, 228) solid; border-radius: 10px;
+}
+h3{
+    font-size: 35px;
+}
+summary{ font-size: 30px;}
+li{
+    background-color:#e7fafc;margin-bottom: 10px;padding:10px;text-align:left; transition:all 0.5s ease}
+    h1:hover{ text-decoration: underline;}
+ul,ol{
+    list-style-type: none;
+}
+input,textarea{
+    width:90%;padding:10px;
+}
+button{
+    background-color: rgb(147, 147, 196);color:rgb(3, 0, 0);padding:10px;margin-left: 25px; border-radius: 6px;
+}
+button:hover{ color: rgb(147, 147, 196); background-color: black;}
+a{
+    text-decoration: none;
+}
